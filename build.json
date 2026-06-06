@@ -1,0 +1,40 @@
+{
+    "version": "1.0.0.0",
+    "export": {
+        "dir": "cwd",
+        "file": "v1test3.txt"
+    },
+    "order": {
+        "1": {
+            "key": "openingBlock"
+        },
+        "2": {
+            "key": "dotTest",
+            "rept": {
+                "mode": "dot",
+                "size": "3"
+            }
+        },
+        "3": {
+            "key": "lineTest",
+            "rept": {
+                "mode": "line",
+                "size": "2"
+            }
+        }
+    },
+    "items": {
+        "openingBlock": {
+            "1": "\tname:Title",
+            "2": "\tby:Rein",
+            "3": "\tversion:1",
+            "4": "\tdesc:Description!"
+        },
+        "dotTest": {
+            "1": "// 2+2 = {2+2}"
+        },
+        "lineTest": {
+            "1": "// 2+2*x = {2+2*x} (which is {/2+2*x})"
+        }
+    }
+}
